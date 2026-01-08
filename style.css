@@ -1,0 +1,104 @@
+.navbar {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+   
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.btn {
+    background: #3e885b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url("assets/hero-bg.jpg") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture {
+    position: absolute;
+    background-size: cover;
+}
+.banner-content {
+    position: relative;
+    text-align: center;
+    max-width: 750px;
+    padding: 20px;
+    color: white;
+}
+.tag {
+    background: white;
+    color: #1a8f45;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.banner-content h1 {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.banner-content h1 span {
+    color: #39c16c;
+}
+.banner-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #e7e7e7;
+}
+.buttons {
+    margin-top: 35px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn.primary {
+    background: #39c16c;
+    color: white;
+}
+.btn.secondary {
+    background: rgba(119, 136, 153, 0.418);
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
