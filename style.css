@@ -1,6 +1,4 @@
 .navbar {
-    width: 100%;
-    padding: 10px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,12 +52,8 @@
 .tag {
     background: white;
     color: #1a8f45;
-    display: inline-block;
     padding: 8px 20px;
     border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 25px;
 }
 .banner-content h1 {
     font-size: 52px;
@@ -76,21 +70,14 @@
     line-height: 1.7;
     color: #e7e7e7;
 }
-.buttons {
+
+ .buttons {
     margin-top: 35px;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-.btn {
-    padding: 12px 28px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-}
+ }
 .btn.primary {
     background: #39c16c;
     color: white;
@@ -101,4 +88,19 @@
     display: flex;
     align-items: center;
     gap: 8px;
+}
+#skills .section-heading{
+    text-align: center;
+}
+#position {
+    display: flex;
+    justify-content: center;
+
+}
+#about{
+    text-align: center;
+}
+#about .btn{
+    font-size: 16px;
+    background-color: #3e885b;
 }
