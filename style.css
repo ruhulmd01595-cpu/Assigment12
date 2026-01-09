@@ -1,7 +1,9 @@
 .navbar {
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .logo {
@@ -49,10 +51,9 @@
     padding: 20px;
     color: white;
 }
-.tag {
-    background: white;
-    color: #1a8f45;
-    padding: 8px 20px;
+.banner-content .tag{
+    background-color: white;
+    padding: 8px 25px;
     border-radius: 20px;
 }
 .banner-content h1 {
@@ -79,10 +80,12 @@
     gap: 20px;
  }
 .btn.primary {
+    font-size: 16px;
     background: #39c16c;
     color: white;
 }
 .btn.secondary {
+    font-size: 16px;
     background: rgba(119, 136, 153, 0.418);
     border: 2px solid white;
     display: flex;
@@ -171,8 +174,15 @@
     font-size: 16px;
     background-color: #3e885b;
 }
+#about .btn img{
+    font-size: 16px;
+}
 #about .more{
     font-size: 16px;
     line-height: 30px;
     color: #627382;
+}
+#foot {
+    background-color: #001931e1
+    
 }
